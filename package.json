@@ -1,0 +1,19 @@
+{
+  "name": "Register-Roles-Discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Xzanx",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "node": "^16.9.1"
+  },
+  "description": ""
+}
