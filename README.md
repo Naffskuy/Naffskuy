@@ -48,4 +48,4 @@ Contoh config.json:
 }
 ```
 ## 👑 | Credits
-@Xzanx
+```Xzanx```
