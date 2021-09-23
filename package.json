@@ -1,5 +1,5 @@
 {
-  "name": "Register-Roles-Discord",
+  "name": "verify-bot-discord",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "devDependencies": {
     "node": "^16.9.1"
   },
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xzanx/verify-bot-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xzanx/verify-bot-discord/issues"
+  },
+  "homepage": "https://github.com/Xzanx/verify-bot-discord#readme",
+  "description": " Verify Bot Discord menggunakan discord.js (v13) dan Berbahasa Indonesia serta dikhususkan untuk server Discord SA-MP"
 }
