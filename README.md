@@ -14,6 +14,7 @@
 - NodeJS V16+
 - Discord.JS 13+
 ## ⚙️ | Konfigurasi
+Berikut adalah format & contoh config.json
 > Note: config.json **Wajib** Untuk Diisi
 ```json
 {
