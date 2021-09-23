@@ -1,6 +1,6 @@
 {
   "Bot": {
-    "prefix": "",
+    "prefix": "!",
     "activity": "",
     "actType": ""
   },
