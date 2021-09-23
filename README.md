@@ -47,3 +47,5 @@ Contoh config.json:
   }
 }
 ```
+## 👑 | Credits
+@Xzanx
