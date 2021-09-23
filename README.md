@@ -1,4 +1,4 @@
-# 📝 | Verify Bot Discord
+# 📝 | Verify Discord Bot
 > **Verify Bot Discord menggunakan discord.js (v13) dan Berbahasa Indonesia serta dikhususkan untuk server Discord SA-MP**
 ## 🚀 | Fitur
 - 1 Command [(prefix)verify]
