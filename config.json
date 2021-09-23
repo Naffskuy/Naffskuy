@@ -1,25 +1,13 @@
 {
-
   "Bot": {
-
     "prefix": "",
-
     "activity": "",
-
     "actType": ""
-
   },
-
   "Verify": {
-
     "roleID": "",
-
     "channelID": "",
-
     "nickTag": "", 
-
     "nRpName": []
-
   }
-
 }
