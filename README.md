@@ -12,9 +12,9 @@
 - Anti Nickname Berbentuk Angka
 - Hanya Dapat Menggunakan Command Pada 1 Channel (Custom)
 ## ℹ️ | Dibutuhkan
-- Discord Bot Token | [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
-- NodeJS V16+
-- Discord.JS 13+
+- Discord Bot Token | [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) | [Developer Portal](https://discord.com/developers/applications)
+- NodeJS V16+ | [Download](https://nodejs.org/en/download/)
+- Discord.JS 13+ | [Npm](https://www.npmjs.com/package/discord.js?source=post_page-----7b5fe27cb6fa----------------------) | [Docs](https://discord.js.org/#/)
 ## ⚙️ | Konfigurasi
 Berikut adalah format & contoh config.json
 > Note: config.json **Wajib** Untuk Diisi
