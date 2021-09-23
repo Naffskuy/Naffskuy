@@ -3,6 +3,8 @@
 ## 🚀 | Fitur
 - 1 Command [(prefix)verify]
 - Custom Prefix |  **Default:** ```!```
+- Bot Activity + Type (Custom)
+- Jika Error, Otomatis Menampilkan Error Pada Console
 - Menambahkan Role
 - Menambahkan Pada Nickname (Custom)
 - Merubah Nickname (Max 25)
@@ -19,7 +21,9 @@ Berikut adalah format & contoh config.json
 ```json
 {
   "Bot": {
-    "prefix": ""
+    "prefix": "",
+    "activity": "",
+    "actType": ""
   },
   "Verify": {
     "roleID": "",
@@ -33,7 +37,9 @@ Contoh config.json:
 ```json
 {
   "Bot": {
-    "prefix": "+" 
+    "prefix": "!",
+    "activity": "GITHUB",
+    "actType": "WATCHING"
   },
   "Verify": {
     "roleID": "929828476222334",
