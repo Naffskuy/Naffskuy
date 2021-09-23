@@ -6,7 +6,10 @@ const client = new Client({
 
 client.on('ready', () => {
   
+  const status = config.Bot.activity
+  const type = config.Bot.actType
   console.log(`${client.user.username} Telah Online!\nAuthor: Xzanx`)
+  client.user.setActivity(status + ' || Xzanx', { type: type })
 })
 
 client.on('messageCreate', (message) => {
@@ -32,13 +35,15 @@ client.on('messageCreate', (message) => {
       }
     }
     if(!isNaN(args[0]) || !isNaN(args[1])) return message.reply('Nama tidak dapat berbentuk angka')
-    if(nickname.length > 30) return message.reply('Nickname terlalu panjang')
+    if(nickname.length > 25) return message.reply('Nickname terlalu panjang')
     message.member.setNickname(tag + ' ' + args[0] + '_' + args[1]).catch(e => {
+      console.log(e)
       return message.reply('Saya tidak dapat mengganti nickname dan tidak memiliki permission `MANAGE NICKNAMES` atau Role saya berada dibawah.\n**Silahkan naikkan terlebih dahulu**')
     })
     
     const checkRoles = message.guild.roles.cache.get(roles)
     message.member.roles.add(checkRoles).catch(e => {
+      console.log(e)
       return message.reply('Saya tidak dapat menambahkan role dan tidak memiliki permission `MANAGE ROLES` atau Role saya berada dibawah.\n**Silahkan naikkan terlebih dahulu**')
     })
     message.reply('Berhasil verify!')
