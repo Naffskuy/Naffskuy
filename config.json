@@ -2,11 +2,11 @@
   "Bot": {
     "prefix": "!",
     "activity": "",
-    "actType": ""
+    "actType": "Ini Bot Verifikasi"
   },
   "Verify": {
     "roleID": "",
-    "channelID": "",
+    "channelID": "979375705508958228",
     "nickTag": "", 
     "nRpName": []
   }
